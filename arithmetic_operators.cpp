@@ -9,7 +9,7 @@ arithmetic_operators::~arithmetic_operators()
 {
     //dtor
 }
-
+//public methods
 std::string arithmetic_operators::add_int(std::string a, std::string b)
 {
     int length;
@@ -144,6 +144,8 @@ std::string arithmetic_operators::add(std::string a, std::string b)
 }
 
 
+
+//private methods
 bool arithmetic_operators::check_number(std::string a)
 {
     for(int i = 0; i< a.size(); i++)
