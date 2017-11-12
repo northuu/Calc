@@ -1,10 +1,10 @@
 # depslib dependency file v1.0
-1510506996 source:d:\c++ programms\calc1\arithmetic_operators.cpp
+1510508595 source:d:\c++ programms\calc1\arithmetic_operators.cpp
 	"arithmetic_operators.h"
 
 1510493696 d:\c++ programms\calc1\include\arithmetic_operators.h
 	<iostream>
 
-1510507004 source:d:\c++ programms\calc1\main.cpp
+1510508531 source:d:\c++ programms\calc1\main.cpp
 	"arithmetic_operators.h"
 

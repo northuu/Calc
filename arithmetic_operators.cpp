@@ -125,7 +125,7 @@ std::string arithmetic_operators::add(std::string a, std::string b)
     c_right = add_int(a_right, b_right);
 
     //deleting unnecessary zeros from the tail
-    while(c_right[c_right.size()-1] == '0')
+    while(c_right[c_right.size()-1] == '0' && c_right.size() != 1)
     {
         c_right.pop_back();
     }
